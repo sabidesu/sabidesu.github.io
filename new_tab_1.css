@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+
+/* declare colors */
+:root {
+  --purple: #604c56;
+  --red: #c95d63;
+  --orange: #ee8434;
+  --background-white: rgb(255, 255, 255, 0.3); /* make transparent bg */
+}
+
+/* set website bg color */
+html {
+  background-color: black;
+  background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-280591.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+/* set the spacing on our lists */
+ul {
+  padding-left: 10px;
+  margin: 0;
+}
+
+/* make all the elements display in a row */
+li {
+  display: inline;
+}
+
+img {
+  width: 300px;
+}
+
+a {
+  color: rgba(0,0,0,1);
+  text-decoration: none; /* remove underline */
+  transition: 0.3s; /* add animation on hover */
+}
+
+a:hover {
+  color: var(--red); /* they color they transition to when hovered */
+}
+
+.title {
+  color: var(--orange);
+}
+
+.links {
+  border: 2px solid var(--purple);
+  width: 300px;
+  background: var(--background-white); /* calls translucent bg */
+}
+
+.greeting {
+  border: 2px solid var(--purple);
+  text-align: center;
+  margin-bottom: 10px; /* space between the greeting and the links */
+  width: 300px;
+  background: var(--background-white);
+}
+
+.main {
+  position: fixed; /* sets the div position relative to the browser */
+  margin: auto;
+  width: 304px; height: 132px;
+  top: 0px; bottom: 100px; left: 0px; right: 0px; /* moves it 100px up from the center */
+  font-family: "Cutive Mono"; font-weight: bold;
+}
+
+.image {
+  position: fixed;
+  margin: auto;
+  bottom: 10px; right: 10px; /* 10px from the bottom right */
+  border: 2px solid var(--purple);
+  width: 300px; height: 450px;
+  background: var(--background-white);
+}
