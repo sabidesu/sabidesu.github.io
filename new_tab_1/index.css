@@ -48,7 +48,7 @@ a:hover {
 .links {
   border: 2px solid var(--purple);
   width: 300px;
-  background: var(--background-white); /* calls translucent bg */
+  background-color: var(--background-white); /* calls translucent bg */
 }
 
 .greeting {
@@ -56,7 +56,7 @@ a:hover {
   text-align: center;
   margin-bottom: 10px; /* space between the greeting and the links */
   width: 300px;
-  background: var(--background-white);
+  background-color: var(--background-white);
 }
 
 .main {
@@ -73,5 +73,5 @@ a:hover {
   bottom: 10px; right: 10px; /* 10px from the bottom right */
   border: 2px solid var(--purple);
   width: 300px; height: 450px;
-  background: var(--background-white);
+  background-color: var(--background-white);
 }
