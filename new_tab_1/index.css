@@ -11,7 +11,7 @@
 /* set website bg color */
 html {
   background-color: black;
-  background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-280591.png");
+  background-image: url("resources/background.png");
   background-repeat: no-repeat;
   background-position: right center;
 }
