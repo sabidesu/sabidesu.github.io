@@ -9,7 +9,7 @@
 
 html {
   background-color: var(--gray);
-  background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-586658.jpg");
+  background-image: url("resources/background.jpg");
   background-position: left top; /* sets background origin */
   background-repeat: no-repeat; /* repeated wallpapers are ugly */
 }
