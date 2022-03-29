@@ -9,7 +9,7 @@
 
 html {
   background-color: var(--gray);
-  background-image: url("resources/background.jpg");
+  background-image: url("resources/background_upscaled.jpg");
   background-position: left top; /* sets background origin */
   background-repeat: no-repeat; /* repeated wallpapers are ugly */
 }
