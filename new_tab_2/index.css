@@ -7,16 +7,19 @@
   --background-white: rgb(255, 255, 255, 0.7);
 }
 
+/*
 html {
   background-color: var(--gray);
   background-image: url("resources/background_upscaled.png");
-  background-position: left top; /* sets background origin */
-  background-repeat: no-repeat; /* repeated wallpapers are ugly */
+  background-position: left top;
+  background-repeat: no-repeat; 
   background-size: contain;
 }
+*/
 
 body {
   font-family: "Cultive Mono", monospace; font-weight: bold;
+  background: url("resources/background_upscaled.png") left top no-repeat contain;
 }
 
 img {
