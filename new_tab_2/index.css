@@ -12,6 +12,7 @@ html {
   background-image: url("resources/background_upscaled.png");
   background-position: left top; /* sets background origin */
   background-repeat: no-repeat; /* repeated wallpapers are ugly */
+  background-size: contain;
 }
 
 body {
